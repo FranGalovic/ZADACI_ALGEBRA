@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(195, 195, 195);
+    background-image: url(../../images/butterfly.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 200px 150px;
+    
+}
