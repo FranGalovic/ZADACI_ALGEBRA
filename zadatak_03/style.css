@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(195, 195, 195);
+    font-size: 16px;
+    color: white;
+    background: url(../../images/fire.png) no-repeat fixed 50% 20%/300px 300px,
+    url(../../images/blossom.jpg) no-repeat fixed center center, url(../../images/pattern.png);
+}
+
+h1{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
