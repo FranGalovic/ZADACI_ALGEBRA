@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    height: 50px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 1em;
+    padding-top: 5px;
+}
+
+.flex-item:nth-child(3n) {
+    flex-basis: 100%;
+}
