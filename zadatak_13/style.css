@@ -1,0 +1,67 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+h1 {
+  text-align: center;
+}
+
+/* box */
+
+div {
+  background-color: #f93;
+  border: 1px solid #333;
+  font-size: 2em;
+  line-height: 150px;
+  width: 400px;
+  height: 150px;
+  margin: 0 auto 2em;
+  text-align: center;
+}
+
+body > div:nth-child(1){
+    transition: background;
+    transition: width 1s;
+}
+
+body > div:nth-child(1):hover{
+    width: 80%;
+    background: aquamarine;
+}
+
+
+body > div:nth-child(2){
+    transition: transform 2s;
+}
+
+body > div:nth-child(2):hover{
+    transform: rotate(360deg);
+}
+
+
+body > div:nth-child(3){
+    transition: rotate(90deg) translate(200px,0);
+}
+
+body > div:nth-child(3):hover{
+    transform: rotate(90deg);
+    transform: translate(200px,0);
+}
+
+body > div:nth-child(4){
+    transition: background 2s;
+    transition: margin-bottom 4s;
+    transition: transform 6s;
+}
+
+body > div:nth-child(4):hover{
+    background: yellow;
+    margin-bottom: 100px yellow;
+    transform: translate(0,500px);
+}
