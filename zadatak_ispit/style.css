@@ -1,0 +1,164 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.wrapper div {
+    opacity: 0;
+  background-color: blue;
+  border: 10px solid red;
+  border-radius: 100%;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 80px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
+
+@keyframes animacija1{
+    0%{
+        transform: translate(0, 800px) scale(0) rotate(0);
+        opacity: 0;
+    }
+    50%{
+
+    }
+    100%{
+        transform: translate(0, 0) scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.wrapper > div:nth-child(1){
+    animation: animacija1 2s ease-out 1 forwards;
+}
+
+@keyframes animacija2{
+    0%{
+        transform: translate(0, 800px) scale(0) rotate(0);
+        opacity: 0;
+    }
+    50%{
+        
+    }
+    100%{
+        transform: translate(0, 0) scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.wrapper > div:nth-child(2){
+    animation: animacija2 2s ease-out 0.7s 1 forwards;
+}
+
+@keyframes animacija3{
+    0%{
+        transform: translate(0, 800px) scale(0) rotate(0);
+        opacity: 0;
+    }
+    50%{
+ 
+    }
+    100%{
+        transform: translate(0, 0) scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.wrapper > div:nth-child(3){
+    animation: animacija3 2s ease-out 1.4s 1 forwards;
+}
+
+@keyframes animacija4{
+    0%{
+        transform: translate(0, 800px) scale(0) rotate(0);
+        opacity: 0;
+    }
+    50%{
+        
+    }
+    100%{
+        transform: translate(0, 0) scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.wrapper > div:nth-child(4){
+    animation: animacija4 2s ease-out 2.1s 1 forwards;
+}
+
+@keyframes animacija5{
+    0%{
+        transform: translate(0, 800px) scale(0) rotate(0);
+        opacity: 0;
+    }
+    50%{
+        
+    }
+    100%{
+        transform: translate(0, 0) scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.wrapper > div:nth-child(5){
+    animation: animacija5 2s ease-out 2.8s 1 forwards;
+}
+
+@keyframes animacija6{
+    0%{
+        transform: translate(0, 800px) scale(0) rotate(0);
+        opacity: 0;
+    }
+    50%{
+        
+    }
+    100%{
+        transform: translate(0, 0) scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.wrapper > div:nth-child(6){
+    animation: animacija6 2s ease-out 3.5s 1 forwards;
+}
+
+@keyframes animacija7{
+    0%{
+        transform: translate(0, 800px) scale(0) rotate(0);
+        opacity: 0;
+    }
+    50%{
+        
+    }
+    100%{
+        transform: translate(0, 0) scale(1) rotate(0);
+        opacity: 1;
+    }
+}
+
+.wrapper > div:nth-child(7){
+    animation: animacija7 2s ease-out 4.2s 1 forwards;
+}
